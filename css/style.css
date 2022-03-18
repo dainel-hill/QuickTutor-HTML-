@@ -1,0 +1,360 @@
+.header {
+    height: 806px;
+    z-index: 1;
+}
+.header .header-img{
+    background-size: 100% 100%;
+}
+.navbar-toggler{
+    display: inline-block !important;
+    position: absolute;
+    right: 20px;
+}
+.navbar{
+    width: -webkit-fill-available;
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 10;
+    height: 105px;
+}
+.navbar .container{
+    justify-content: normal !important;
+}
+.navbar img{
+    width: 180px;
+    height: 70px;
+    margin-right: 50px;
+}
+.navbar a{
+    color: white !important;
+}
+.navbar .nav-Learn a{
+    font-size: 18px;
+    font-family: Lato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+}
+.navbar .nav-Learn a:hover{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar .nav-Teach a{
+    font-size: 18px;
+    font-family: Lato;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 100;
+}
+.navbar .nav-Teach a:hover{
+   text-decoration: none;
+    font-weight: 500;
+}
+.header-img img{
+    width: 167px;
+    height: 77px;
+    padding-right: 10px;
+}
+.header-img img:hover{
+    opacity: 0.8;
+}
+.header .col-lg-6{
+    padding: 0px;
+}
+.header-right .header-learn  {
+    background-color: #15151d;
+    height: 50%;
+    padding: 118px 105px;
+}
+.header-img-inner{
+    padding-top: 85%;
+    display: flex;
+}
+.header-right a{
+    display: inline-block;
+    font-size: 14px;
+    color: white !important;
+        letter-spacing: 1.5;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 4px;
+    border-color: #6462c9;
+    font-family: Lato;
+    font-weight: 600;
+}
+.header-right a:hover{
+    background-color: #6462c9;
+}
+.header-right .header-learn h2, .header-right .header-teach h2{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 65px;
+}
+.header-right .header-teach{
+    background-color: #1b1b26;
+    height: 50%;
+    padding: 118px 105px;
+
+}
+.dropdown{
+    display: none;
+    top: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.triangle-up {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 125px;
+    border-radius: 3px;
+}
+.dropdown:hover .triangle-up{
+    border-bottom: 5px solid white;
+}
+.dropbtn{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    font-family: Lato;
+    font-size: 14px;
+    color: white !important;
+    background-color: #6462c9;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.navbar .dropdown{
+    position: absolute;
+    right: 100px;
+}
+
+.navbar-toggler{
+    padding: 20px 20px;
+    border: none;
+}
+.navbar-toggler img{
+    width: 15px ;
+    height: 12px;
+    margin-right: 0px;
+}
+.dropdown-content img{
+    width: 21px;
+    height: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dropdown-content .between{
+    color: grey !important;
+    font-weight: 900;
+    line-height: 20px;
+}
+.sidepanel  {
+    width: 0px;
+  position: fixed;
+  z-index: 1;
+  height: 600px;
+  top: 105px;
+  right: 0;
+  background-color: #12121a;
+  overflow-x: hidden;
+  transition: 0.5s;
+  color: white;
+}
+.sidepanel-inner{
+    padding: 30px;
+}
+.sidepanel a {
+    font-family: Lato;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .4;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+.sidepanel a:hover {
+  color: #818181;
+}
+
+
+
+.openbtn:hover {
+  background-color:#444;
+}
+.cross{
+    display: none;
+}
+.community{
+    padding-top: 20px;
+}
+.legal{
+    padding-top: 20px;
+}
+.made-with{
+    padding-top: 20px;
+}
+.heartColor{
+    color:#6462c9;
+}
+.download-app{
+    padding-top: 35px;
+}
+.download-app img{
+    width: 130px;
+    height: 46px;
+}
+.download-app img:hover{
+    opacity: 0.8;
+}
+.icon{
+    margin-top: 25px;
+    padding: 20px 20px;
+    border-top: grey solid 1px;
+    border-bottom: grey solid 1px;
+}
+.icon img{
+    width: 22px;
+    height: 22px;
+}
+.company{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.company .BBB{
+    width: 110px;
+    height: 42px;
+    margin-right: 15px;
+}
+.company .green{
+    width: 40px;
+    height: 42px;
+    margin-left: 15px;
+}
+.side-footer{
+    margin-top: 15px;
+}
+.side-footer a{
+    font-size: 12px;
+}
+.special-img{
+    display: none;
+}
+.introduce{
+    background-color: #15151d;
+    padding-top: 50px
+}
+.introduce-inner{
+    display: flex;
+    padding: 0 100px;
+}
+.single-introduce{
+    width: inherit;
+    font-family: Lota,sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border-radius: 10px;
+    height: 380px;
+    padding: 20px 25px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 60%);
+}
+.single-introduce h5{
+    font-weight: 600;
+}
+.single-introduce p{
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+.single-introduce .title-image{
+    padding: 50px 20px;
+}
+.single-introduce .description{
+    padding: 10px;
+}
+.possibility{
+    background-color: #15151d;
+    padding-top: 60px;
+    color: white;
+    
+}
+.possibility .row{
+    display: flex;
+    justify-content: center;
+}
+.single{
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 60%);
+    border-radius: 8px;
+    width: fit-content;
+    margin: 10px 0px;
+}
+.single .down{
+    padding: 10px;
+}
+.single .up img{
+    width: 140px;
+    height: 120px;
+    border-radius: 8px;
+
+}
+.single .down img{
+    width: 18px;
+    height: 18px;
+    margin: 7px;
+}
+.single .down .down-img{
+    width: 34px;
+    height: 34px;
+    border: #6462c9 solid 1px;
+    border-radius: 50%;
+}
+.single-col{
+    display: flex;
+    align-items: center;
+}
+
+.category-right{
+    margin-left: 10px;
+}
+.single-direction{
+    width: 140px;
+    height: 260px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 60%);
+    border-radius: 8px;
+    margin: 10px 0px;
+    background-color: #6462c9;
+}
+.direction-title{
+    display: flex;
+    align-items: center;
+    height: 80%;
+}
+.single-direction a hover{
+    text-decoration: none;
+}
+.direction-title span{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+}
