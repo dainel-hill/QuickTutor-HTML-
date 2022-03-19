@@ -173,16 +173,16 @@
     line-height: 20px;
 }
 .sidepanel  {
-    width: 0px;
+    width: 350px;
   position: fixed;
   z-index: 1;
-  height: 600px;
+  height: 620px;
   top: 105px;
-  right: 0;
   background-color: #12121a;
   overflow-x: hidden;
   transition: 0.5s;
   color: white;
+  right: -1000px;
 }
 .sidepanel-inner{
     padding: 30px;
@@ -576,4 +576,15 @@
 }
 .category-mobile .single .learn-direction{
     transform: rotate(180deg);
+}
+.header-right a:hover{
+    text-decoration: none;
+}
+.sidepanel-inner .made-with h6{
+    justify-content: center;
+}
+.sidepanel-inner .made-with h6 a{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px !important;
 }

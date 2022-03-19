@@ -174,5 +174,8 @@
     .service .row{
         padding-bottom: 20px !important;
     }
+    .sidepanel{
+        width: -webkit-fill-available !important;
+    }
     
 }
